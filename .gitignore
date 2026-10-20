@@ -1,0 +1,17 @@
+
+# Secrets
+.env
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+
+# Data
+data/raw/
+data/processed/
+
+# Notebook/cache files
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
