@@ -1,17 +1,20 @@
-
-# Secrets
+# Credentials
 .env
 
-# Local databases
-*.duckdb
-*.duckdb.wal
+# Python environment
+.venv/
+__pycache__/
+*.pyc
 
-# Data
+# Python tooling
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded and processed data
 data/raw/
 data/processed/
 
-# Notebook/cache files
-.ipynb_checkpoints/
-__pycache__/
-.pytest_cache/
-.ruff_cache/
+# Local DuckDB databases
+*.duckdb
+*.duckdb.wal
